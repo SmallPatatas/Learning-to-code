@@ -47,32 +47,31 @@ int main(void)
           
      Cs50 week 2, scrabble & readability;
      ------------------------------------
+          Okay, function calls make sense now
 
-     Okay, function calls make sense now
+          Had a mental block wrt how a function's inputs/returns are named in main
+          (where they're named based on the specific intention for that function call) vs how they appear in the actual function 
+          definition (where the names are more about the function's generalized operation). 
 
-     Had a mental block wrt how a function's inputs/returns are named in main
-     (where they're named based on the specific intention for that function call) vs how they appear in the actual function 
-     definition (where the names are more about the function's generalized operation). 
+          *Now* it all seems obvious...
 
-     *Now* it all seems obvious...
-
-     Anyway, also forgot the single quotes + backslash of '\0' in scrabble.c for a while, good times!
+          Anyway, also forgot the single quotes + backslash of '\0' in scrabble.c for a while, good times!
      
      
      (Readability.c)
      ---------------
-     Banged out most of it fairly quickly until the last f(x) where the letter, word, and sentence counts go into an equation:
+          Banged out most of it fairly quickly until the last f(x) where the letter, word, and sentence counts go into an equation:
      
-     1: Neglected to initialize an int that only appeared in the 'else' brackets of an if-else, 
-     but still tried to return that int value, oops;
+          1: Neglected to initialize an int that only appeared in the 'else' brackets of an if-else, 
+          but still tried to return that int value, oops;
 
-     2: Learned something about when type-casting is necessary in order to get a float output, 
-     i.e. if x and y are ints, then 
-     
-     float z = (x/y) * 100.0 
-     
-     doesn't work.
+          2: Learned something about when type-casting is necessary in order to get a float output, 
+          i.e. if x and y are ints, then 
+          {
+               float z = (x/y) * 100.0 
+          }
+          doesn't work.
 
      
-     Live && learn!
+          Live && learn!
 
