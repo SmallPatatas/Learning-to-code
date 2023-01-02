@@ -5,7 +5,7 @@ const string academic_honesty = "Harvard says that sharing solutions to the prob
 or making them available, violates their academic honesty policy. So while I'd
 like to share my work, I did choose to take advantage of the course being offered
 for free (as in beer). So this will just be a record of some of the challenges faced,
-mistakes made, and successes achieved along the way.\n"
+mistakes made, and successes achieved along the way.\n";
 
 int main(void)
 {
