@@ -120,5 +120,23 @@ int main(void)
                clear just how easy it is to unintentionally create an exploitable bug that could go completely unnoticed
                by users for quite some time.
           }
-               
+          
+     Cs50_Week_3(Algorithms)
+     {
+          lecture_notes(recursion)
+          {
+               Geez, trying to understand recursive functions is like trying to understand recursive functions,
+               you know what I mean?
+          
+               ...
+          
+               Ohhhhh lol ok I had a mental block around why the "return;" didn't back the 'draw' function out of itself 
+               completely. Suddenly occurred to me that it's only returning out of that (n = 0) function call, thus
+               allowing the rest to complete, since they're already at the line *after* draw(n - 1)
+
+               For whatever reason, I wasn't picturing the calls as existing inside one another. I guess this is why 
+               Malan recommends using the debugger to step into the code in order to see what it's doing.
+          }
+          
+          
 */
