@@ -84,7 +84,7 @@ int main(void)
                Live && learn!
           }
           
-     Cs50_week_2(Caesar & substitution, in c)
+     Cs50_week_3(Caesar & substitution, in c)
      {
           Did both options because why not.
 
@@ -137,82 +137,6 @@ int main(void)
                For whatever reason, I wasn't picturing the calls as existing inside one another. I guess this is why 
                Malan recommends using the debugger to step into the code in order to see what it's doing.
           }
-
-          plurality.c
-          {
-               Oh lordy
-
-               plurality.c compiles - but does not run how I intended.
-
-               Merge sort is a bit harder to implement that I imagined lol
-
-               I know it would have been easier to do either selection or bubble sort but I wanted the challenge 🤪
-          }
-
-          plurality.c cont
-          {
-               alright got plurality.c sorted out, no pun intended
-
-               Just had to walk through the logic of the steps of the recursive merge sort function, use printf as a debugging tool in a few places, and found my error. Hadn't added 1 to the rounded-up 'halfway' integer to get the first place value of the right-hand side of the sorting function - a sentence which probably makes immediate sense only to me 😃
-
-               Curious to look up other implementations, mine feels a little messy. #cs50
-          }
-
-          tideman.c
-          {
-               So, after writing 4 versions(!) of a selection sort algorithm that uses recursion, thought I'd made a fairly elegant one (def have a better handle on how to think through the task).
-
-               Displaying some of the function's work w/ printf seems to show it doing what it should... But check50 is still telling me that it's not sorting the pairs properly?!
-
-               Kinda flummoxed. Will finish up the remaining functions, get it to the 'print_winner' stage, and see if anything changes. 
-          }
-
-          tideman.c cont
-          {
-               Gonna accept the 17/18 grade here ha
-
-               Still think my logic for the sort algo was good
-
-               Things tried as fixes:
-               -Remove ".margin" field I'd added to the pair struct, and make a separate array to store those values: didn't help.
-
-               -Make a function to do the copying for each struct field manually, rather than try to copy all fields via pair[y] = pair[x]: same.
-
-               Anyway. Rewrote the recursive algo that checks for loops and got it down to a nifty 19 line function.
-
-               Progress 😊
-          }
-     }
-
-     Cs50_Week_4(Memory)
-     {
-          recover.c
-          {
-               Lol.
-
-               Was getting segmentation faults and could not figure out why for ages.
-
-               Turned out to be the boolean expression
-
-               while (fread(...) == BLOCK_SIZE)
-
-               which I'd taken directly from the hints section of the problem walkthrough.
-
-               Still not fluent enough to know if it was the way I defined BLOCK_SIZE that made this fail, or if it was the card.raw file, or who knows what.
-
-               Regardless, as soon as I changed it to
-
-               while (fread(...) != 0)
-
-               I got real output 😊
-          }
-
-          reverse.c
-          {
-               
-          }
-     }          
-
           
-
+          
 */
